@@ -1,9 +1,18 @@
+header {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	border-color: #cccccc
+
+}
+
+
 
 
 #logo {
+	margin:0px;
+	padding: 0px;
 	background-color: #4aaaa5;
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-color: #cccccc
-
 }
