@@ -6,13 +6,25 @@ header {
 
 }
 
-
-
-
 #logo {
 	margin:0px;
 	padding: 0px;
 	background-color: #4aaaa5;
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#connectiwthme {
+	background-color: #ffffff
+	margin: 10px;
+	padding: 10px;
+	border-width: 10px;
+	border-color: #dddddd
+
+
+}
+
+
+h3 {
+	color: #4aaaa5;
 }
