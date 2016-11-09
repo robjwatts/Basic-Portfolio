@@ -1,50 +1,63 @@
-<!doctype html>
-<html>
-
 <head>
-	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
+  <title>Rob Watts</title>
+  <link rel="stylesheet" type="text/css" href="css/contactstyle.css">
 </head>
 
 <body>
-
-<header>
-<h1 id="logo">Rob Watts</h1>
-
-   <ul id="nav">
-    <li><a href="index.html">About</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</header>
-
-<h2>Contact</h2>
-
-
-<div id="mainbody">
-<form action="contact.php" method-"post">
-	Name<br>
-	<input type="text" name="name"><br>
-	Email
-	<input type="Email" name="email"><br>
-	Message
-	<input type="Message" name="message"><br>
-  <input type="submit" value="Submit">
-	</form>
+  <div class="namebar">
+    <h1>Rob Watts</h1>
+  </div>
+  
+  <div class="menubar">
+    <ul>
+      <li><a href="index.html">About<a></li>
+      <li><a href="portfolio.html">Portfolio<a></li>
+      <li><a href="contact.html">Contact<a></li>
+    </ul>
+  </div>
+  
+  <div class="contentbox">
+    <div class="mainsectionbox">
+      <h1>Contact</h1>
+      <hr>
+      
+      <div class="contactform">
+        <form>
+          Name:<br>
+          <input type="text" name="name" placeholder="John Smith">
+          <br><br>
+      
+          Email:<br>
+          <input type="email" name="email" placeholder="example@gmail.com">
+      
+          <br><br>
+      
+          Message:<br>
+          <textarea name="message"></textarea>
+          
+          <br><br>
+          
+          <button type="button" onclick="alert('Hello World!')">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+    
   </div>
 
-
- <div id="connectwithme">
-        <h3>Connect with Me</h3>
-        <a href="https://github.com/robjwatts"><img src="images/github_square_black-128.png" alt="GitHub" id="connectimg"></a>
-        <a href="https://www.linkedin.com/in/robertwatts1"><img src="images/linkedin_square_color-128.png" alt="LinkedIn" id="connectimg"></a>
-        <a href="portfolio.html"><img src="images/portfolio.png" alt="Portfolio" id="connectimg"></a>
+  <div class="sidebar">
+    <div class="sidebarcontent">
+      <h2>Connect With Me</h2>
+        <hr>
+      <a href="https://github.com/robjwatts"><img src="images/github_square_black-128.png"></a>
+      <a href="https://www.linkedin.com/in/robertwatts1"><img src="images/linkedin_square_color-128.png"></a>
+      <img src="images/portfolio.png">
     </div>
-
-  <footer>&copy;Copyright 2016 Rob Watts</footer>
-
+  </div>
+  
+  <div class="footer">
+    <footer>
+      <p>&#169; &nbsp; Copyright Rob Watts</p>
+    </footer>
+  </div>
 </body>
-
-</html>

@@ -1,0 +1,145 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:white;
+}
+
+
+
+.namebar {
+	width:270px;
+	height:89px;
+	margin-top:0px;
+	margin-left:100px;
+	overflow: auto;
+	background-color:#4aaaa5;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	float:left;
+	position:relative;
+}
+
+.namebar h1 {
+	text-align:center;
+	position: absolute;
+	top:7px;
+	left:50px;
+	color:white;
+}
+
+
+.menubar {
+	position:absolute;
+	top:20px;
+	left:730px;
+	float:left;
+	margin:0;
+	width:100%;
+}
+
+.menubar li {
+	list-style:none;
+	float: left;
+	padding:0px 20px 0px 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-right: 1px solid #777777;
+}
+
+.menubar li a{
+	text-decoration:none;
+	color:#777777;
+}
+
+
+.contentbox{
+	background:url("../images/black_felt.jpg");
+	clear:both;
+	width:100%;
+	height:460px;
+	padding:55px 50px 55px 100px;
+	position: relative;
+	border-top:2px solid #777777;
+	border-bottom:9px solid #4aaaa5;
+	
+}
+
+
+
+.mainsectionbox{
+	width:550px;
+	height:460px;
+	background-color:#FFFFFF;
+	padding:20px 50px;
+	position: absolute;
+	top: 35px;
+	left: 100px;
+	
+}
+
+.mainsectionbox hr{ 
+	display: block;
+	border:none;
+	height:2px;
+	width:550px;
+	color: #DDDDDD;
+	background-color:#DDDDDD;
+}
+
+.mainsectionbox h1 {
+	color:#4aaaa5;
+}
+
+
+.sidebar {
+	background-color:#FFFFFF;
+	width:272px;
+	height:203px;
+	text-align: center;
+	float:right;
+	position: absolute;
+	top: 127px;
+	left: 780px;
+	color:#4aaaa5;
+	
+}
+
+.sidebarcontent {
+	position: absolute;
+	top: 15px;
+	right:43px;
+}
+
+.sidebarcontent hr{ 
+	display: block;
+	border:none;
+	height:2px;
+	width:178px;
+	color: #DDDDDD;
+	background-color:#DDDDDD;
+}
+
+.sidebarcontent img{
+	width:57px;
+	height:57px;
+}
+
+
+.footer {
+	position: absolute;
+	top: 670px;
+	width:100%;
+	background-color: #666666;
+	height:90px;
+}
+
+.footer p {
+	position: absolute;
+	bottom: 25px;
+	left:550px;
+	text-align: center;
+	color:#DDDDDD;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.gallery {
+	position: relative;}
